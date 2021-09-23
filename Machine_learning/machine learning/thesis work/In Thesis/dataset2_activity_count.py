@@ -11,7 +11,7 @@ import datetime;
 import time;
 from collections import Counter;
 
-df = pd.read_csv('dataset_secondo/user13.csv');
+df = pd.read_csv('dataset_secondo/user12.csv');
 counter = 0;
 activity_count = 0;
 day_count = 0;
@@ -377,7 +377,7 @@ for i in range(len(final_list)):
     print(len(new_df));        
 print(unique_dates)        
 #to csv
-new_df.to_csv('dataset_secondo_user_activity_count/user13 activity count.csv');                  
+new_df.to_csv('dataset_secondo_user_activity_count/user4 activity count.csv');                  
     
 
         

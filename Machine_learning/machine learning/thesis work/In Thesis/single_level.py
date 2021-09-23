@@ -21,7 +21,7 @@ cols = list(df.columns);
 
 #number of cols
 num_cols = len(df.axes[1]);
-# print(num_cols);
+print(num_cols);
 
 # print(len(df));
 
